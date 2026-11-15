@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veille Technologique - Azir HASSANI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="sidebar">
+        <div>
+            <span class="avatar" aria-hidden="true">AH</span>
+            <a href="index.html" class="brand">Azir HASSANI</a>
+            <p class="brand-sub">BTS SIO option SISR</p>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html"><i class="fa-solid fa-house"></i><span>Accueil</span></a></li>
+                <li><a href="bts-sio.html"><i class="fa-solid fa-graduation-cap"></i><span>BTS SIO</span></a></li>
+                <li><a href="profil.html"><i class="fa-solid fa-user"></i><span>Profil</span></a></li>
+                <li><a href="projets.html"><i class="fa-solid fa-diagram-project"></i><span>Projets</span></a></li>
+                <li><a href="stages.html"><i class="fa-solid fa-briefcase"></i><span>Stages</span></a></li>
+                <li><a href="certifications.html"><i class="fa-solid fa-certificate"></i><span>Certifications</span></a></li>
+                <li><a href="veille.html" class="active"><i class="fa-solid fa-newspaper"></i><span>Veille</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page">
+        <h1 class="page-title">Veille Technologique — Fuites de données</h1>
+        <p class="page-lead">Thématique : fuites de données personnelles, cyberattaques, vol d’identifiants, exposition de données et protection des informations.</p>
+
+        <a href="https://www.cnil.fr/fr/definition/violation-de-donnees" target="_blank" rel="noopener noreferrer" class="panel-link">
+            <div class="panel panel-accent">
+                <div class="panel-head">
+                    <i class="fas fa-database panel-icon"></i>
+                    <div>
+                        <h2 class="panel-title">Sujet de veille : les fuites de données personnelles</h2>
+                        <span class="panel-sub">Période : septembre 2025 à novembre 2026 · Outils : Google Alertes et sources institutionnelles</span>
+                    </div>
+                </div>
+                <p class="panel-text">
+                    Cette veille suit les incidents au cours desquels des données personnelles sont volées, divulguées ou consultées sans autorisation. Elle présente les organismes touchés, les informations exposées, les méthodes utilisées et les risques pour les personnes concernées : hameçonnage, fraude et usurpation d’identité.
+                </p>
+                <p class="panel-hint"><strong>Cliquez pour consulter la définition d’une violation de données par la CNIL ↗</strong></p>
+            </div>
+        </a>
+
+        <!-- Articles mensuels classés du plus récent au plus ancien -->
+        <ul class="veille-list">
+            <li>
+                <a href="https://www.cyberattaque.org/ministere-des-affaires-etrangeres-une-cyberattaque-expose-les-donnees-personnelles-dagents-et-dusagers/" target="_blank" rel="noopener noreferrer" class="entry">
+                    <div>
+                        <span class="entry-source">Cyberattaque.org</span>
+                        <span class="entry-date">12 novembre 2026</span>
+                    </div>
+                    <div>
+                        <h3>Ministère des Affaires étrangères : des données d’usagers et d’agents exposées</h3>
+                        <p>Une intrusion détectée en octobre 2026 sur le portail des bibliothèques du ministère aurait permis à un tiers d’accéder aux données personnelles d’environ une centaine d’utilisateurs. Les premiers éléments indiquent que des comptes techniques volés ont été utilisés pour pénétrer dans l’environnement informatique.</p>
+                        <p class="entry-cve"><strong>À retenir :</strong> Données : informations personnelles d’environ 100 utilisateurs · Vecteur : comptes techniques compromis · <span>Lire l’article ↗</span></p>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.caf.fr/professionnels/presse/publications/incident-de-cybersecurite-concernant-vacaf-la-cnaf-presente-les-conclusions-de-ses-investigations-et" target="_blank" rel="noopener noreferrer" class="entry">
+                    <div>
+                        <span class="entry-source">CAF / CNAF</span>
+                        <span class="entry-date">2 novembre 2026</span>
+                    </div>
+                    <div>
+                        <h3>CAF / Vacaf : 1,6 million d’allocataires concernés par une fuite de données</h3>
+                        <p>Les investigations de la Cnaf ont établi que 1 619 893 allocataires étaient concernés par la fuite de la plateforme Vacaf. Les informations exposées pouvaient comprendre l’identité, le matricule allocataire, la composition du foyer, le quotient familial et certaines informations sur les enfants. Les données bancaires, mots de passe et coordonnées de contact n’étaient pas concernés.</p>
+                        <p class="entry-cve"><strong>À retenir :</strong> Personnes concernées : 1 619 893 allocataires · Vecteur : incident sur la plateforme Vacaf · <span>Lire l’article ↗</span></p>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.20minutes.fr/high-tech/by-the-web/4251851-20261006-quoi-brixhub-lookup-11-milliards-donnees-personnelles-piratees" target="_blank" rel="noopener noreferrer" class="entry">
+                    <div>
+                        <span class="entry-source">20 Minutes</span>
+                        <span class="entry-date">6 octobre 2026</span>
+                    </div>
+                    <div>
+                        <h3>BrixHub : un moteur de recherche revendique 11 milliards de données issues de fuites</h3>
+                        <p>BrixHub est un service de recherche qui revendique compiler plus de 11 milliards d’enregistrements provenant de fuites de données. Ces plateformes de « lookup » rendent consultables des informations personnelles déjà dérobées, comme des coordonnées ou des identifiants. La ministre chargée du Numérique a saisi la justice.</p>
+                        <p class="entry-cve"><strong>À retenir :</strong> Enjeu : réutilisation et agrégation de données volées · Statut : volume revendiqué par la plateforme · <span>Lire l’article ↗</span></p>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.banquedesterritoires.fr/cyberattaque-de-lamf-lassociation-confirme-une-fuite-de-donnees-et-saisit-la-cnil" target="_blank" rel="noopener noreferrer" class="entry">
+                    <div>
+                        <span class="entry-source">Banque des Territoires / Localtis</span>
+                        <span class="entry-date">7 septembre 2026</span>
+                    </div>
+                    <div>
+                        <h3>Association des maires de France : une fuite de données via son site Internet</h3>
+                        <p>L’Association des maires de France a confirmé une attaque ayant entraîné le vol d’environ 114 000 lignes de données depuis son site Internet. Une partie des informations concernait les abonnés à ses services. Pour 533 personnes, des noms, adresses e-mail et mots de passe en clair auraient été récupérés. Les données bancaires n’étaient pas concernées.</p>
+                        <p class="entry-cve"><strong>À retenir :</strong> Données : environ 114 000 lignes, dont 533 comptes avec mots de passe en clair · Vecteur : site Internet compromis · <span>Lire l’article ↗</span></p>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.impots.gouv.fr/actualite/vol-de-donnees-suite-des-acces-illegitimes-au-systeme-dinformation-de-la-dgfip" target="_blank" rel="noopener noreferrer" class="entry">
+                    <div>
+                        <span class="entry-source">Direction générale des Finances publiques</span>
+                        <span class="entry-date">14 août 2026</span>
+                    </div>
+                    <div>
+                        <h3>DGFiP : des accès illégitimes entraînent le vol de données fiscales</h3>
+                        <p>La DGFiP a indiqué qu’un acteur malveillant avait accédé à certains de ses systèmes entre juin et août 2026. Les investigations ont établi que des données concernant environ 678 000 particuliers et professionnels avaient été consultées et extraites. Les espaces personnels des usagers et leurs mots de passe n’ont pas été compromis.</p>
+                        <p class="entry-cve"><strong>À retenir :</strong> Personnes concernées : environ 678 000 · Données : informations fiscales et cadastrales · <span>Lire l’article ↗</span></p>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.education.gouv.fr/incident-de-securite-affectant-les-donnees-de-personnels-de-l-education-nationale-505407" target="_blank" rel="noopener noreferrer" class="entry">
+                    <div>
+                        <span class="entry-source">Ministère de l’Éducation nationale</span>
+                        <span class="entry-date">31 juillet 2026</span>
+                    </div>
+                    <div>
+                        <h3>Éducation nationale : intrusion dans le système de formation des personnels</h3>
+                        <p>Une intrusion frauduleuse a été détectée après l’usurpation d’un compte professionnel dans la nuit du 25 juillet 2026. L’attaque a visé le système d’information dédié à la formation des personnels et a pu entraîner l’exfiltration de données personnelles d’un nombre important d’agents. Les investigations ont été engagées pour déterminer précisément le périmètre.</p>
+                        <p class="entry-cve"><strong>À retenir :</strong> Vecteur : compte professionnel usurpé · Données : informations personnelles d’agents · <span>Lire l’article ↗</span></p>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://numerique.gouv.fr/sinformer/espace-presse/incident-tchap/" target="_blank" rel="noopener noreferrer" class="entry">
+                    <div>
+                        <span class="entry-source">DINUM</span>
+                        <span class="entry-date">8 juin 2026</span>
+                    </div>
+                    <div>
+                        <h3>Tchap : la messagerie des agents de l’État touchée par une compromission de compte</h3>
+                        <p>Un compte utilisateur de Tchap a été compromis à la suite d’une usurpation. La DINUM et l’ANSSI ont enquêté et pris des mesures de sécurisation. Environ 73 467 agents pourraient être concernés ; les échanges privés chiffrés n’étaient pas accessibles dans le cadre de cet incident, selon la DINUM.</p>
+                        <p class="entry-cve"><strong>À retenir :</strong> Personnes potentiellement concernées : 73 467 agents · Vecteur : usurpation de compte · <span>Lire l’article ↗</span></p>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.lefigaro.fr/economie/cyberattaque-le-specialiste-du-tiers-payant-almerys-confirme-une-fuite-de-donnees-20260525" target="_blank" rel="noopener noreferrer" class="entry">
+                    <div>
+                        <span class="entry-source">Le Figaro avec AFP</span>
+                        <span class="entry-date">25 mai 2026</span>
+                    </div>
+                    <div>
+                        <h3>Almerys : une cyberattaque expose des données de bénéficiaires de mutuelles</h3>
+                        <p>Le spécialiste du tiers payant Almerys a confirmé un accès non autorisé à son site de délivrance des prises en charge. Les données potentiellement exposées comprennent les noms, prénoms, dates de naissance, numéros de Sécurité sociale et informations de contrat d’assurance santé. Le nombre exact de bénéficiaires concernés n’a pas été communiqué.</p>
+                        <p class="entry-cve"><strong>À retenir :</strong> Données : identité, numéro de Sécurité sociale et informations de couverture · Nombre de personnes : non communiqué · <span>Lire l’article ↗</span></p>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.interieur.gouv.fr/actualites/communiques-de-presse/point-detape-du-21-avril-2026-concernant-lincident-de-securite-relatif-au-portail-antsgouvfr" target="_blank" rel="noopener noreferrer" class="entry">
+                    <div>
+                        <span class="entry-source">Ministère de l’Intérieur</span>
+                        <span class="entry-date">21 avril 2026</span>
+                    </div>
+                    <div>
+                        <h3>ANTS : 11,7 millions de comptes pourraient être concernés par un incident de sécurité</h3>
+                        <p>L’Agence nationale des titres sécurisés a détecté un incident pouvant impliquer la divulgation de données issues de comptes particuliers et professionnels. Les informations potentiellement concernées comprennent l’identifiant de connexion, le nom, les prénoms, l’adresse électronique et la date de naissance. Les pièces justificatives transmises pour les démarches n’étaient pas concernées selon les premières informations.</p>
+                        <p class="entry-cve"><strong>À retenir :</strong> Comptes potentiellement concernés : 11,7 millions · Vecteur : incident sur le portail ANTS · <span>Lire l’article ↗</span></p>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.leparisien.fr/futurs/30-000-photos-privees-telechargees-sur-facebook-un-ancien-employe-de-meta-fait-lobjet-dune-enquete-au-royaume-uni-09-04-2026-RFUO3TUUAVHWDP6WA74B5QF7HU.php" target="_blank" rel="noopener noreferrer" class="entry">
+                    <div>
+                        <span class="entry-source">Le Parisien</span>
+                        <span class="entry-date">9 avril 2026</span>
+                    </div>
+                    <div>
+                        <h3>Facebook / Meta : un ancien employé soupçonné d’avoir téléchargé 30 000 photos privées</h3>
+                        <p>Un ancien employé de Meta fait l’objet d’une enquête au Royaume-Uni. Il est soupçonné d’avoir conçu un programme permettant d’accéder à des photos privées d’utilisateurs Facebook en contournant les contrôles de sécurité internes. Meta a indiqué avoir découvert l’incident, licencié l’employé et prévenu les utilisateurs concernés.</p>
+                        <p class="entry-cve"><strong>À retenir :</strong> Volume rapporté : environ 30 000 photos · Vecteur : abus d’accès interne · <span>Lire l’article ↗</span></p>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.education.gouv.fr/incident-de-securite-affectant-les-donnees-de-certains-personnels-de-l-education-nationale-470657" target="_blank" rel="noopener noreferrer" class="entry">
+                    <div>
+                        <span class="entry-source">Ministère de l’Éducation nationale</span>
+                        <span class="entry-date">24 mars 2026</span>
+                    </div>
+                    <div>
+                        <h3>Éducation nationale : les données de 243 000 agents potentiellement exfiltrées</h3>
+                        <p>Le ministère a signalé la diffusion non autorisée de données issues du système COMPAS, utilisé pour gérer les stagiaires. L’accès frauduleux aurait été réalisé après l’usurpation d’un compte externe. Les données concernées pouvaient inclure l’identité, les coordonnées et les périodes d’absence des agents, sans information de santé.</p>
+                        <p class="entry-cve"><strong>À retenir :</strong> Personnes concernées : environ 243 000 agents · Vecteur : compte externe usurpé · <span>Lire l’article ↗</span></p>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.banque-france.fr/fr/actualites/fuite-de-donnees-personnelles-du-fichier-national-des-comptes-bancaires-ficoba-la-banque-de-france" target="_blank" rel="noopener noreferrer" class="entry">
+                    <div>
+                        <span class="entry-source">Banque de France</span>
+                        <span class="entry-date">20 février 2026</span>
+                    </div>
+                    <div>
+                        <h3>FICOBA : des coordonnées bancaires exposées après des accès illégitimes</h3>
+                        <p>La DGFiP a signalé des accès illégitimes au fichier national des comptes bancaires. Les données divulguées pouvaient comprendre l’identité du titulaire, son adresse, son RIB ou IBAN et, dans certains cas, son identifiant fiscal. Ces informations ne donnent pas directement accès au solde des comptes, mais peuvent faciliter des tentatives de fraude.</p>
+                        <p class="entry-cve"><strong>À retenir :</strong> Données : identité, adresse, RIB / IBAN et parfois identifiant fiscal · Risque : fraude et hameçonnage · <span>Lire l’article ↗</span></p>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.france-education-international.fr/cp/incident-sur-la-plateforme-gael-diplomes-delf-dalf?langue=fr" target="_blank" rel="noopener noreferrer" class="entry">
+                    <div>
+                        <span class="entry-source">France Éducation international</span>
+                        <span class="entry-date">13 janvier 2026</span>
+                    </div>
+                    <div>
+                        <h3>GAEL : une cyberattaque touche les données d’environ 5 millions de candidats</h3>
+                        <p>La plateforme GAEL, utilisée pour gérer les diplômes DELF et DALF, a été ciblée par une cyberattaque entre le 9 et le 12 janvier 2026. Les premières investigations ont identifié la compromission de deux comptes d’utilisateurs externes. Les données accessibles comprenaient notamment l’identité, la date et le lieu de naissance, la nationalité et la langue maternelle des candidats.</p>
+                        <p class="entry-cve"><strong>À retenir :</strong> Personnes concernées : environ 5 millions de candidats · Vecteur : comptes externes compromis · <span>Lire l’article ↗</span></p>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.sports.gouv.fr/exfiltration-de-donnees-provenant-d-un-des-systemes-d-information-du-ministere-10048" target="_blank" rel="noopener noreferrer" class="entry">
+                    <div>
+                        <span class="entry-source">Ministère des Sports</span>
+                        <span class="entry-date">19 décembre 2025</span>
+                    </div>
+                    <div>
+                        <h3>Pass’Sport : une exfiltration de données concerne 3,5 millions de foyers</h3>
+                        <p>Le ministère des Sports a annoncé une exfiltration de données provenant de l’un de ses systèmes d’information. Les équipes techniques ont été mobilisées pour stopper la fuite et évaluer les informations concernées. Le ministère a indiqué que 3,5 millions de foyers devaient être informés.</p>
+                        <p class="entry-cve"><strong>À retenir :</strong> Personnes concernées : 3,5 millions de foyers · Vecteur : exfiltration depuis un système ministériel · <span>Lire l’article ↗</span></p>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.leparisien.fr/economie/urssaf-le-service-pajemploi-victime-dun-vol-massif-de-donnees-jusqua-12-million-de-personnes-concernees-17-11-2025-JT5AFAIO45HXRHUXXK2XHMZCCY.php" target="_blank" rel="noopener noreferrer" class="entry">
+                    <div>
+                        <span class="entry-source">Le Parisien avec AFP</span>
+                        <span class="entry-date">17 novembre 2025</span>
+                    </div>
+                    <div>
+                        <h3>Pajemploi : jusqu’à 1,2 million de salariés concernés par un vol de données</h3>
+                        <p>Le service Pajemploi de l’Urssaf a subi un vol de données détecté le 14 novembre 2025. Les informations potentiellement extraites comprenaient les noms, dates et lieux de naissance, adresses postales, numéros de Sécurité sociale et numéros Pajemploi. Les IBAN, adresses e-mail, numéros de téléphone et mots de passe n’étaient pas concernés.</p>
+                        <p class="entry-cve"><strong>À retenir :</strong> Personnes potentiellement concernées : jusqu’à 1,2 million · Vecteur : vol de données · <span>Lire l’article ↗</span></p>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.fftir.org/communication-relative-a-un-incident-de-securite/" target="_blank" rel="noopener noreferrer" class="entry">
+                    <div>
+                        <span class="entry-source">Fédération française de tir</span>
+                        <span class="entry-date">23 octobre 2025</span>
+                    </div>
+                    <div>
+                        <h3>Fédération française de tir : intrusion dans le système d’information des licenciés</h3>
+                        <p>La Fédération française de tir a détecté une intrusion dans son système ITAC entre le 18 et le 20 octobre 2025. Des données personnelles de licenciés ont pu être compromises, notamment l’état civil, les coordonnées et les numéros de licence. La fédération a déconnecté les serveurs concernés et déposé plainte.</p>
+                        <p class="entry-cve"><strong>À retenir :</strong> Données : identité, coordonnées et numéro de licence · Vecteur : intrusion dans ITAC · <span>Lire l’article ↗</span></p>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.numerama.com/cyberguerre/2068617-lusurpation-didentite-de-professionnels-de-sante-provoque-des-fuites-de-donnees-dans-plusieurs-regions-de-france.html" target="_blank" rel="noopener noreferrer" class="entry">
+                    <div>
+                        <span class="entry-source">Numerama</span>
+                        <span class="entry-date">9 septembre 2025</span>
+                    </div>
+                    <div>
+                        <h3>Santé : une cyberattaque touche des systèmes de plusieurs régions françaises</h3>
+                        <p>Une cyberattaque a visé des systèmes numériques de santé dans les Hauts-de-France, en Normandie et dans les Pays de la Loire. Les premiers éléments indiquaient que des données d’identité de patients avaient été exposées après la compromission d’un opérateur régional de santé. Les autorités ont notamment alerté sur le risque de campagnes de phishing.</p>
+                        <p class="entry-cve"><strong>À retenir :</strong> Régions concernées : Hauts-de-France, Normandie et Pays de la Loire · Risque : hameçonnage ciblé · <span>Lire l’article ↗</span></p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+
+        <div class="panel">
+            <div class="panel-head">
+                <i class="fas fa-book-open panel-icon"></i>
+                <div>
+                    <h2 class="panel-title">Sources de veille</h2>
+                    <span class="panel-sub">Principaux organismes et médias consultés</span>
+                </div>
+            </div>
+            <p class="panel-text">Les liens vers les articles précis se trouvent directement dans chaque entrée ci-dessus.</p>
+            <ul class="sources-list">
+                <li><a href="https://www.cnil.fr/fr/cybersecurite/les-violations-de-donnees-personnelles" target="_blank" rel="noopener noreferrer">CNIL</a> — définition, obligations et conseils concernant les violations de données personnelles.</li>
+                <li><a href="https://cyber.gouv.fr/" target="_blank" rel="noopener noreferrer">ANSSI</a> — alertes et analyses officielles sur les incidents de cybersécurité.</li>
+                <li><a href="https://www.cybermalveillance.gouv.fr/" target="_blank" rel="noopener noreferrer">Cybermalveillance.gouv.fr</a> — prévention, conséquences et assistance aux victimes.</li>
+                <li><a href="https://www.numerama.com/cyberguerre/" target="_blank" rel="noopener noreferrer">Numerama</a> — actualités françaises sur les fuites de données et les cyberattaques.</li>
+                <li><a href="https://www.lemondeinformatique.fr/" target="_blank" rel="noopener noreferrer">Le Monde Informatique</a> — actualités professionnelles en cybersécurité.</li>
+                <li><a href="https://www.20minutes.fr/high-tech/" target="_blank" rel="noopener noreferrer">20 Minutes – High-Tech</a> — actualités numériques et incidents de sécurité.</li>
+                <li><a href="https://www.leparisien.fr/" target="_blank" rel="noopener noreferrer">Le Parisien</a> et <a href="https://www.lefigaro.fr/" target="_blank" rel="noopener noreferrer">Le Figaro</a> — couverture des incidents touchant les organismes français.</li>
+            </ul>
+        </div>
+    </main>
+
+</body>
+</html>

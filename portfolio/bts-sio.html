@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTS SIO & Parcours - Azir HASSANI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="sidebar">
+        <div>
+            <span class="avatar" aria-hidden="true">AH</span>
+            <a href="index.html" class="brand">Azir HASSANI</a>
+            <p class="brand-sub">BTS SIO option SISR</p>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html"><i class="fa-solid fa-house"></i><span>Accueil</span></a></li>
+                <li><a href="bts-sio.html" class="active"><i class="fa-solid fa-graduation-cap"></i><span>BTS SIO</span></a></li>
+                <li><a href="profil.html"><i class="fa-solid fa-user"></i><span>Profil</span></a></li>
+                <li><a href="projets.html"><i class="fa-solid fa-diagram-project"></i><span>Projets</span></a></li>
+                <li><a href="stages.html"><i class="fa-solid fa-briefcase"></i><span>Stages</span></a></li>
+                <li><a href="certifications.html"><i class="fa-solid fa-certificate"></i><span>Certifications</span></a></li>
+                <li><a href="veille.html"><i class="fa-solid fa-newspaper"></i><span>Veille</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page">
+        <h1 class="page-title">Le BTS SIO</h1>
+
+        <div class="panel">
+            <h2 class="panel-title">Qu'est-ce que le BTS SIO ?</h2>
+            <p class="panel-text">
+                Le BTS SIO (Services Informatiques aux Organisations) est un diplôme d'État de niveau 5 (Bac+2) qui forme des professionnels capables de répondre aux besoins de transformation numérique des organisations. Je prépare actuellement ce diplôme avec une spécialisation en SISR. À l'issue de cette formation, je poursuivrai mon cursus en Licence 3 MIAGE à l'Université Paris 1 Panthéon-Sorbonne.
+            </p>
+        </div>
+
+        <div class="grid-2" style="margin-bottom: 32px;">
+            <div class="panel">
+                <h2 class="panel-title">Option SLAM</h2>
+                <span class="panel-sub">Solutions logicielles et applications métiers</span>
+                <p class="panel-text" style="margin-top: 12px; color: var(--muted);">
+                    L'option SLAM se concentre sur le cycle de vie des applications, formant l'étudiant à l'analyse des besoins, à la programmation de solutions logicielles et à la gestion des bases de données.
+                </p>
+            </div>
+
+            <div class="panel panel-accent">
+                <h2 class="panel-title">Option SISR</h2>
+                <span class="panel-sub">Solutions d'infrastructure, systèmes et réseaux</span>
+                <p class="panel-text" style="margin-top: 12px; color: var(--muted);">
+                    L'option SISR est dédiée à la conception, à la maintenance et à la sécurisation des architectures réseaux, l'administration de serveurs et la garantie de la disponibilité des données.
+                </p>
+            </div>
+        </div>
+
+        <div class="tabs">
+            <input type="radio" name="tabs" id="radio-s1" class="tab-radio" checked>
+            <input type="radio" name="tabs" id="radio-s2" class="tab-radio">
+            <input type="radio" name="tabs" id="radio-a2" class="tab-radio">
+
+            <div class="tab-menu">
+                <label for="radio-s1" class="tab-btn">Semestre 1 (1ère année)</label>
+                <label for="radio-s2" class="tab-btn">Semestre 2 (1ère année)</label>
+                <label for="radio-a2" class="tab-btn">2ème année</label>
+            </div>
+
+            <!-- ========== SEMESTRE 1 ========== -->
+            <div id="tab-s1" class="tab-content">
+                <div class="skills-group">
+                    <h3 class="skills-group-title">Réseaux</h3>
+                    <div class="skills-badge-list">
+                        <a class="skill-badge" href="pdf/Binaire.pdf" target="_blank" rel="noopener">Binaire</a>
+                        <a class="skill-badge" href="pdf/AdresseIPv4.pdf" target="_blank" rel="noopener">Adressage IP</a>
+                        <a class="skill-badge" href="pdf/VLAN.pdf" target="_blank" rel="noopener">VLAN</a>
+                        <a class="skill-badge" href="pdf/Routage.pdf" target="_blank" rel="noopener">Routage</a>
+                        <a class="skill-badge" href="pdf/modeleOSI.pdf" target="_blank" rel="noopener">modèle OSI</a>
+                        <a class="skill-badge" href="pdf/Malwares.pdf" target="_blank" rel="noopener">Malware</a>
+                    </div>
+                </div>
+
+                <div class="skills-group">
+                    <h3 class="skills-group-title">Développement</h3>
+                    <div class="skills-badge-list">
+                        <a class="skill-badge" href="pdf/HTML.pdf" target="_blank" rel="noopener">HTML</a>
+                        <a class="skill-badge" href="pdf/CSS.pdf" target="_blank" rel="noopener">CSS</a>
+                        <a class="skill-badge" href="pdf/XML.pdf" target="_blank" rel="noopener">XML</a>
+                        <a class="skill-badge" href="pdf/BDD.pdf" target="_blank" rel="noopener">Base de données</a>
+                        <a class="skill-badge" href="pdf/Csharp.pdf" target="_blank" rel="noopener">C#</a>
+                    </div>
+                </div>
+
+                <div class="skills-group">
+                    <h3 class="skills-group-title">Outils</h3>
+                    <div class="skills-badge-list">
+                        <a class="skill-badge" href="pdf/Cisco_Packet_Tracer.pdf" target="_blank" rel="noopener">Cisco Packet Tracer</a>
+                        <a class="skill-badge" href="pdf/PuTTY.pdf" target="_blank" rel="noopener">Putty</a>
+                        <a class="skill-badge" href="pdf/MySQL.pdf" target="_blank" rel="noopener">MySQL</a>
+                        <a class="skill-badge" href="pdf/Notepad++.pdf" target="_blank" rel="noopener">Notepad++</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ========== SEMESTRE 2 ========== -->
+            <div id="tab-s2" class="tab-content">
+                <div class="skills-group">
+                    <h3 class="skills-group-title">Réseaux &amp; Infrastructure (S2)</h3>
+                    <div class="skills-badge-list">
+                        <a class="skill-badge" href="pdf/TCP_IP.pdf" target="_blank" rel="noopener">TCP/IP</a>
+                        <a class="skill-badge" href="pdf/Routage.pdf" target="_blank" rel="noopener">Routage</a>
+                        <a class="skill-badge" href="pdf/Chiffrement.pdf" target="_blank" rel="noopener">Chiffrement</a>
+                        <a class="skill-badge" href="pdf/Hachage.pdf" target="_blank" rel="noopener">Hachage</a>
+                        <a class="skill-badge" href="pdf/NAT.pdf" target="_blank" rel="noopener">NAT</a>
+                        <a class="skill-badge" href="pdf/Malwares.pdf" target="_blank" rel="noopener">Malware</a>
+                    </div>
+                </div>
+
+                <div class="skills-group">
+                    <h3 class="skills-group-title">Systèmes &amp; Services (S2)</h3>
+                    <div class="skills-badge-list">
+                        <a class="skill-badge" href="pdf/Windows_Server.pdf" target="_blank" rel="noopener">Windows Server</a>
+                        <a class="skill-badge" href="pdf/Linux_Ubuntu.pdf" target="_blank" rel="noopener">Linux Ubuntu</a>
+                        <a class="skill-badge" href="pdf/Apache.pdf" target="_blank" rel="noopener">Apache</a>
+                        <a class="skill-badge" href="pdf/Samba.pdf" target="_blank" rel="noopener">Samba</a>
+                        <a class="skill-badge" href="pdf/Active_Directory.pdf" target="_blank" rel="noopener">Active Directory</a>
+                        <a class="skill-badge" href="pdf/Virtualisation.pdf" target="_blank" rel="noopener">Virtualisation</a>
+                        <a class="skill-badge" href="pdf/DHCP.pdf" target="_blank" rel="noopener">DHCP</a>
+                        <a class="skill-badge" href="pdf/DNS.pdf" target="_blank" rel="noopener">DNS</a>
+                        <a class="skill-badge" href="pdf/SSH.pdf" target="_blank" rel="noopener">SSH</a>
+                    </div>
+                </div>
+
+                <div class="skills-group">
+                    <h3 class="skills-group-title">Outils</h3>
+                    <div class="skills-badge-list">
+                        <a class="skill-badge" href="pdf/PuTTY.pdf" target="_blank" rel="noopener">Putty</a>
+                        <a class="skill-badge" href="pdf/Cisco_Packet_Tracer.pdf" target="_blank" rel="noopener">Cisco Packet Tracer</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ========== 2ème ANNÉE ========== -->
+            <div id="tab-a2" class="tab-content">
+                <div class="skills-group">
+                    <h3 class="skills-group-title">Réseaux &amp; Infrastructure</h3>
+                    <div class="skills-badge-list">
+                        <a class="skill-badge" href="pdf/Routage.pdf" target="_blank" rel="noopener">Routage</a>
+                        <a class="skill-badge" href="pdf/VPN.pdf" target="_blank" rel="noopener">VPN</a>
+                        <a class="skill-badge" href="pdf/Firewall.pdf" target="_blank" rel="noopener">Firewall</a>
+                        <a class="skill-badge" href="pdf/Redondance.pdf" target="_blank" rel="noopener">Redondance</a>
+                    </div>
+                </div>
+
+                <div class="skills-group">
+                    <h3 class="skills-group-title">Systèmes &amp; Services</h3>
+                    <div class="skills-badge-list">
+                        <a class="skill-badge" href="pdf/Linux_Ubuntu.pdf" target="_blank" rel="noopener">Linux Ubuntu</a>
+                        <a class="skill-badge" href="pdf/Windows_Server.pdf" target="_blank" rel="noopener">Windows Server</a>
+                        <a class="skill-badge" href="pdf/Active_Directory.pdf" target="_blank" rel="noopener">Active Directory</a>
+                        <a class="skill-badge" href="pdf/Virtualisation.pdf" target="_blank" rel="noopener">Virtualisation</a>
+                        <a class="skill-badge" href="pdf/SSH.pdf" target="_blank" rel="noopener">SSH</a>
+                    </div>
+                </div>
+
+                <div class="skills-group">
+                    <h3 class="skills-group-title">Outils</h3>
+                    <div class="skills-badge-list">
+                        <a class="skill-badge" href="pdf/Wireshark.pdf" target="_blank" rel="noopener">Wireshark</a>
+                        <a class="skill-badge" href="pdf/Cisco_Packet_Tracer.pdf" target="_blank" rel="noopener">Cisco Packet Tracer</a>
+                        <a class="skill-badge" href="pdf/PuTTY.pdf" target="_blank" rel="noopener">Putty</a>
+                        <a class="skill-badge" href="pdf/Pfsense.pdf" target="_blank" rel="noopener">PFSense</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>

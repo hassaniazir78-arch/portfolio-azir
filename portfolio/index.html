@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azir HASSANI - Accueil</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="sidebar">
+        <div>
+            <span class="avatar" aria-hidden="true">AH</span>
+            <a href="index.html" class="brand">Azir HASSANI</a>
+            <p class="brand-sub">BTS SIO option SISR</p>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active"><i class="fa-solid fa-house"></i><span>Accueil</span></a></li>
+                <li><a href="bts-sio.html"><i class="fa-solid fa-graduation-cap"></i><span>BTS SIO</span></a></li>
+                <li><a href="profil.html"><i class="fa-solid fa-user"></i><span>Profil</span></a></li>
+                <li><a href="projets.html"><i class="fa-solid fa-diagram-project"></i><span>Projets</span></a></li>
+                <li><a href="stages.html"><i class="fa-solid fa-briefcase"></i><span>Stages</span></a></li>
+                <li><a href="certifications.html"><i class="fa-solid fa-certificate"></i><span>Certifications</span></a></li>
+                <li><a href="veille.html"><i class="fa-solid fa-newspaper"></i><span>Veille</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="accueil" class="page home">
+        <p class="hero-badge"><span class="dot"></span> BTS SIO SISR · Prochaine étape : L3 MIAGE, Paris 1 Panthéon-Sorbonne</p>
+        <h1 class="hero-title">Azir <span class="grad">Hassani</span></h1>
+        <h2 class="hero-subtitle">Étudiant en BTS SIO — Systèmes &amp; Réseaux</h2>
+        <p class="hero-text">
+            Bienvenue sur mon portfolio ! Passionné d'informatique et de réseau, je vous présente mon parcours, mes projets, mes stages et mes compétences acquises lors de mon cursus en BTS SIO.
+        </p>
+        <div class="hero-buttons">
+            <a href="bts-sio.html" class="btn btn-primary">Commencer la visite <i class="fas fa-arrow-right"></i></a>
+            <a href="#cv-modal" class="btn btn-outline"><i class="fas fa-file-pdf"></i> Mon CV</a>
+            <a href="projets.html" class="btn btn-outline"><i class="fas fa-diagram-project"></i> Mes projets</a>
+        </div>
+
+        <div class="stats">
+            <div class="stat"><span class="stat-num">4</span><span class="stat-label">Expériences en entreprise</span></div>
+            <div class="stat"><span class="stat-num">4</span><span class="stat-label">Certifications</span></div>
+            <div class="stat"><span class="stat-num">2</span><span class="stat-label">Projets</span></div>
+            <div class="stat"><span class="stat-num">17</span><span class="stat-label">Articles de veille</span></div>
+        </div>
+
+        <ul class="chips" aria-label="Compétences clés">
+            <li>Windows Server &amp; AD</li><li>Réseaux Cisco</li><li>VLAN / VPN</li><li>Linux Ubuntu</li><li>Virtualisation VMware</li><li>Diagnostic matériel</li><li>Support utilisateur</li><li>Câblage &amp; baie réseau</li>
+        </ul>
+
+        <div class="quick">
+            <a href="stages.html" class="quick-card"><i class="fa-solid fa-briefcase"></i><div><strong>Expériences</strong><span>ISMI, Home &amp; Informatique, Mairie</span></div></a>
+            <a href="certifications.html" class="quick-card"><i class="fa-solid fa-certificate"></i><div><strong>Certifications</strong><span>RGPD, EBIOS, cybersécurité</span></div></a>
+            <a href="veille.html" class="quick-card"><i class="fa-solid fa-newspaper"></i><div><strong>Veille</strong><span>Fuites de données</span></div></a>
+        </div>
+    </main>
+
+    <!-- FENÊTRE CV (CSS uniquement) -->
+    <div id="cv-modal" class="cv-modal">
+        <!-- Clic sur le fond sombre = fermer -->
+        <a href="#accueil" class="cv-modal-backdrop" aria-label="Fermer"></a>
+
+        <div class="cv-modal-box">
+            <a href="#accueil" class="cv-modal-close" aria-label="Fermer">&times;</a>
+            <h2><i class="fas fa-file-pdf"></i> Curriculum Vitae - Azir HASSANI</h2>
+
+            <object data="CV-azir-hassani.pdf" type="application/pdf" class="cv-modal-pdf">
+                <div class="cv-modal-fallback">
+                    <p>Ton navigateur ne peut pas afficher le PDF ici.</p>
+                </div>
+            </object>
+
+            <div class="cv-modal-actions">
+                <a href="CV-azir-hassani.pdf" target="_blank" rel="noopener" class="btn btn-primary">
+                    <i class="fas fa-up-right-from-square"></i> Ouvrir dans un nouvel onglet
+                </a>
+                <a href="CV-azir-hassani.pdf" download class="btn btn-outline">
+                    <i class="fas fa-download"></i> Télécharger
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
